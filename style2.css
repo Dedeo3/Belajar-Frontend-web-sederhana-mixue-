@@ -1,0 +1,285 @@
+*,html,body{
+    margin: 0;
+    padding:0;
+    font-family: 'poppins';
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+  
+}
+
+/* warna dasar */
+:root {
+    --primary: #ff6e6c;
+    --bg: white;
+}
+nav{
+    width: 100%;
+    padding: 10px 7%;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    border-bottom: 7px solid palevioletred;
+    
+}
+
+nav .nama {
+    color: var(--bg);
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    font-size: 25px;
+    font-style: italic;
+}
+nav .nama span {
+    color: white;
+}
+.option a{
+    color: var(--bg);
+    font-size: 14px;
+    margin: 10px;
+   
+}
+
+nav .option a:hover{
+    color: brown;
+    text-decoration: underline;
+    transition-delay: .3s;
+    transition: .4s linear;
+}
+
+.ikon a{
+    color: var(--bg);
+}
+.ikon a:hover{
+    color: brown;
+}
+#nav-responsif{
+    display: none;
+}
+
+.gif {
+    width: 30px;
+    height: 35px;
+}
+
+/* bagian home */
+
+#home{
+    min-height: 100vh ;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-image: url("bg-homenya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid rgb(237, 225, 225);
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+    padding: 15px 7%;
+    text-align: left;
+    align-items: center;
+    border: 3px solid rgb(205, 38, 38);
+    border-radius: 25px;
+    position: relative;
+}
+.mahal{
+    text-decoration: underline;
+    font-style: italic;
+}
+main h1{
+    color: rgb(118, 47, 59);;
+}
+.paraf{
+    font-size: 12px;
+    color: rgb(118, 47, 59);
+}
+.murah{
+    font-size: 14px;
+    font-weight: 700px;
+}
+.home-mixue{
+    color: rgb(255, 0, 51);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: black;
+    text-decoration: underline;
+}
+#home .beli{
+    position: absolute;
+    padding: 9px;
+    background-color: red;
+    border-radius: 9px;
+    margin-left: 15%;
+    margin-top: 200px;
+    border: 1px solid white
+}
+#home .beli-yuk{
+    color: var(--bg);
+
+}
+
+ #home .beli:hover{
+   border: 1px solid red;
+ }
+
+
+.conten-mixue{
+    width: 450px;
+    height: 300px;
+}
+#footer1{
+    background-color: aliceblue;
+   padding: 10px 7%;
+}
+.footer-ig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kata-footer{
+    font-size: 10px;
+    text-align: center;
+}
+/* about us */
+#about-us{
+    min-height: 100vh ;
+    display: flex;
+    align-items: center;
+    background-image: url("bg-homenya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid rgb(237, 225, 225);
+    justify-content: center;
+}
+.about-judul1{
+    color: black;
+}
+
+.about-mixue{
+   width: 500px;
+   height: 300px;
+   border: 3px solid brown;
+   border-radius: 8px;
+   padding: 20px;
+   color: black;
+
+}
+
+.about-judul2{
+    color: black;
+}
+.about-ul{
+    margin-left: 25px;
+}
+
+/* contact */
+.chat{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ff6e6c;
+    border-radius: 5px;
+    padding: 40px 7%;
+}
+
+#contact{
+    min-height: 100vh ;
+    display: flex;
+    align-items: center;
+    background-image: url("bg-homenya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid rgb(237, 225, 225);
+    justify-content: center;
+    text-align: center;
+}
+.submit{
+    position: relative;
+    left: 100px;
+}
+/* mengirim pesan */
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("bg-homenya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+/* lokasi */
+#location{
+    min-height: 100vh ;
+    display: flex;
+    align-items: center;
+    background-image: url("bg-homenya.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid rgb(237, 225, 225);
+    justify-content: center;
+    text-align: center;
+}
+.lokasi{
+    top: 50px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* make responsif */
+/* tablet */
+@media(max-width: 768px){
+    html{
+        font-size: 75%;
+    }
+    #nav-responsif{
+        display: inline-block;
+    }
+    .option{
+        position: absolute;
+        top:100%;
+        right: 100%;
+        background-color: white;
+        width: 30rem;
+        height: 100vh;
+        
+    }
+    .option .active{
+        right: 0;
+    }
+}
+/* hp */
+@media(max-width: 450px){
+    html{
+        font-size: 55%;
+    }
+}

@@ -1,0 +1,10 @@
+-di dalam navbar terdapat tulisan mixue, home about us, menu, contact, location
+-didalam body home terdapat logo mixue dan juga fitur buy yang nantinya mengarah ke page menu
+- di dalam about us terdapat kenapa wajib coba mixue?
+	rasanya enak dan harganya bersahabat dengan dompet 
+	cabang kami banyak sehingga mudah dan dekat untuk anda kunjungi
+	tempat kami berjualan bersih dan nyaman
+-menu lihat di :
+https://www.ayovaksindinkeskdi.id/rekomendasi-menu-mixue/
+-pada contact terdapat instagram(mixue.tugu) 
+-location terdapat url mixue(lihat ig)
